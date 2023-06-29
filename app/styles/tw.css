@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mutambo-focus-sky {
+   @apply focus:outline-none focus:outline-2 focus:outline-offset-0 focus:outline-sky-200 focus:border-sky-600 focus:hover:border-sky-600;
+}
+
+.mutambo-focus-neutral {
+   @apply focus:outline-none focus:outline-2 focus:outline-offset-0 focus:outline-neutral-300 focus:border-neutral-600 focus:hover:border-neutral-700;
+}
+
+.mutambo-focus-neutral-dark {
+   @apply focus:outline-none focus:outline-2 focus:outline-offset-0 focus:outline-neutral-300 focus:border-neutral-600 focus:hover:border-neutral-700;
+}
+
+.mutambo-focus-sky-dark {
+   @apply focus:outline-none focus:outline-2 focus:outline-offset-0 focus:outline-sky-200 focus:border-sky-800 focus:hover:border-sky-800;
+}
+
+.mutambo-form-help-button {
+   @apply border border-transparent flex hover:bg-neutral-200 hover:text-neutral-700 items-center justify-center ml-2 mutambo-focus-sky p-[6px] rounded-full text-neutral-500;
+}

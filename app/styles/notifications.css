@@ -1,0 +1,30 @@
+.notyf {
+  padding: 0;
+}
+.notyf__wrapper {
+  padding: 0;
+}
+.info-toast:first-child {
+  margin-top: 10px;
+}
+.info-toast:last-child {
+  margin-bottom: 10px;
+}
+.info-toast {
+  align-items: center;
+  background: black;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 5px 10px 5px 10px;
+  padding: 7px 14px 7px 14px;
+  width: auto;
+}
+.info-toast > div,
+.info-toast > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
